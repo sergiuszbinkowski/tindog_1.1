@@ -1,0 +1,31 @@
+/* zadanie na factor z */
+.text {
+  color: yellow;
+  font-weight: bold;
+  font-size: 2rem;
+}
+body {
+  background-color: antiquewhite;
+}
+div {
+  border: 5px dotted;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+}
+.blue {
+  background-color: blue;
+  z-index: 1;
+}
+.green {
+  background-color: green;
+  left: 40px;
+  top: 40px;
+  z-index: 1;
+}
+.red {
+  background-color: red;
+  left: 80px;
+  top: 80px;
+  z-index: -1;
+}
